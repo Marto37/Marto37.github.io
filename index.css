@@ -8,6 +8,7 @@ html {
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    flex-direction: column;
     min-width: 50px;
   }
 
@@ -32,3 +33,10 @@ html {
       outline: none;
     margin-bottom: 75px;
   }
+  .h {
+    color:#333333;
+    font-size:200px;
+  }
+
+    
+  
