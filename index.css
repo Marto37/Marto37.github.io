@@ -6,7 +6,7 @@ html {
 
   .containers {
     display:flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-wrap: wrap;
     flex-direction: column;
     min-width: 50px;
@@ -23,7 +23,6 @@ html {
       background:linear-gradient(to right, #f38d6a 5%, #fa8479 100%);
       background-color: #fa8479;
       border:none;
-      display:inline-block;
       cursor:pointer;
       color:#b5b5b5;
       font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -33,7 +32,9 @@ html {
       outline: none;
     margin-bottom: 75px;
   }
+  
   .h {
+    margin-top:5px;
     color:#333333;
     font-size:200px;
   }
