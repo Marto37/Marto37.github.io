@@ -1,6 +1,6 @@
 html {
-    background-color: #0d001a;
-    color: white;
+    background-color: #fbf7f3;
+    color: #e0e0e0;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
   }
 
@@ -16,24 +16,19 @@ html {
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    background-color: #1a0033;
-    border-radius: 17px;
   }
 
   .c1 > button {
-    box-shadow:inset 0px -3px 7px 0px #ffa31a;
-      background:linear-gradient(to bottom, #ffa31a 5%, #995c00 100%);
-      background-color:#ffa31a;
-      border-radius:10px;
+      background:linear-gradient(to right, #f38d6a 5%, #fa8479 100%);
+      background-color: #fa8479;
       border:none;
       display:inline-block;
       cursor:pointer;
-      color:#ffffff;
+      color:#b5b5b5;
       font-family: "Trebuchet MS", Helvetica, sans-serif;
       font-size:15px;
       padding:9px 23px;
       text-decoration:none;
-      text-shadow:0px 1px 0px #263666;
-    outline: none;
+      outline: none;
     margin-bottom: 75px;
   }
