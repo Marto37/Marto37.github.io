@@ -25,11 +25,15 @@ html {
       border:none;
       cursor:pointer;
       color:#b5b5b5;
-      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font: Verdana;
       font-size:15px;
       padding:9px 23px;
       text-decoration:none;
       outline: none;
+      border-radius: 10px;
+      height: 50px;
+      width: 200px;
+      font-weight: bold;
     margin-bottom: 75px;
   }
   
