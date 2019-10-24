@@ -1,0 +1,64 @@
+html {
+    background-color: #fbf7f3;
+    color: #e0e0e0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+
+
+  .containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logos {
+    align-self: flex-start;
+  }
+
+  .c1 > img {
+    align-self: center;
+    border-radius: 300px;
+  }
+
+  .c1 {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+  }
+
+  .c1 > button {
+      background:linear-gradient(to right, #f38d6a 5%, #fa8479 100%);
+      background-color: #fa8479;
+      border:none;
+      cursor:pointer;
+      color:#b5b5b5;
+      font: Verdana;
+      font-size:15px;
+      padding:9px 23px;
+      text-decoration:none;
+      outline: none;
+      border-radius: 10px;
+      height: 50px;
+      width: 200px;
+      font-weight: bold;
+    margin-bottom: 75px;
+  }
+  
+  .h {
+    margin-top:5px;
+    color:#333333;
+    font-size:75px;
+  }
+
+  .linkedin {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+  }
+
+    
+  
