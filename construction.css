@@ -1,0 +1,35 @@
+.page {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.containers {
+    color:#333333;
+    display:flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.backButtonContainer > button {
+    background:linear-gradient(to right, #f38d6a 5%, #fa8479 100%);
+    background-color: #fa8479;
+    border:none;
+    cursor:pointer;
+    color:#b5b5b5;
+    font: Verdana;
+    font-size:15px;
+    padding:9px 23px;
+    text-decoration:none;
+    outline: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+  margin-bottom: 75px;
+}
+
+.backButtonContainer > button:active {
+  position:relative;
+  top:2px;
+}
