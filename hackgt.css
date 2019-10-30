@@ -1,0 +1,13 @@
+  .containers{
+    display:flex;
+  }
+  .letter{
+    font-family: sans-serif;
+    align-self:center;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#e1ffda, #0e7a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-weight: bolder;
+  }
