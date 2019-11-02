@@ -54,7 +54,7 @@ html {
     margin-top: 50px;
     margin-left: 50px;
   }
-  .backButtonContainer > button {
+  .backButtonContainer > a {
       background:linear-gradient(to right, #f38d6a 5%, #fa8479 100%);
       background-color: #fa8479;
       border:none;
@@ -72,7 +72,7 @@ html {
     margin-bottom: 75px;
   }
   
-  .backButtonContainer > button:active {
+  .backButtonContainer > a:active {
     position:relative;
     top:2px;
   }
