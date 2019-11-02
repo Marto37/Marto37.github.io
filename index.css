@@ -57,7 +57,7 @@ html {
   .containers > .header > .name > a > img {
     align-self: flex-start;
   }
-  .c1 > button {
+  .c1 > a {
       background:linear-gradient(to right, #f38d6a 5%, #fa8479 100%);
       background-color: #fa8479;
       border:none;
@@ -72,7 +72,7 @@ html {
       height: 50px;
       width: 200px;
       font-weight: bold;
-    margin-bottom: 75px;
+    margin-bottom: 50px;
   }
   
   .h {
@@ -82,7 +82,7 @@ html {
   }
 
 
-.c1 > button:active {
+.c1 > a:active {
   position:relative;
   top:2px;
 }
